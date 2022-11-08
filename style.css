@@ -1,0 +1,194 @@
+:root{
+  --color-white:#fff;
+  --color-gray1: rgb(169, 169, 169);
+  --color-pink: rgb(255, 239, 213);
+  --color-gray:rgb(105,105,105);
+  --color-blue:rgb(1, 33, 63);
+  }
+
+body{
+    font-family: sans-serif;
+   
+}
+ #nav, a{
+   
+   color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+   
+   
+}
+.logo{
+    margin-left: 100px;
+    float: left;
+}
+#banner{
+  width: 100%;
+}
+
+h2{
+  
+   margin-left: 30px;
+}
+.sobremim{
+    color: black;
+    margin: auto;
+}
+#img-sobre{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#formacao-experiencia{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 1rem;
+    padding: 1rem 2rem;
+   
+ 
+
+}
+.formacao-experienciaDiv{
+    
+    box-shadow: 0px 4px 12px rgba(143, 27, 27, 0.2);
+   
+    
+}
+.data{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+     text-transform: capitalize;
+  }
+
+
+  
+  .formacao{
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 0.10px;
+  }
+  .instituicao{
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 0.5px;
+  }
+    .meus-projetos{
+       display: flex;
+       align-items: center;
+       margin-left: 600px;
+    }
+
+  #Projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 1rem;
+    padding: 1orem 2rem;
+    background-color:rgb(1, 33, 63);
+    margin-bottom: 40px;
+  }
+  #img-project{
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     box-shadow: inset;
+     margin-top: 15px;
+
+  }
+  .titulo-project{
+    color: darkgray;
+    font-size: 40px;
+    font-weight: bold;
+   
+
+  }
+
+
+  #container {
+  
+    box-shadow: 1px 1px 4px var(--color-gray1);
+    border-radius: 5px;
+    border: 2px solid var(--color-gray1);
+    width: 450px;
+    max-width: 100%;
+    margin: auto;
+   
+}
+
+.titulo-form h2{
+margin-left: 150px;
+  font-weight: 600;
+  color:var(--color-gray1);
+  font-size: 30px;
+  text-align:left;
+}
+  .form {
+    padding: 0 40px 30px;
+  
+   
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color:var(--color-gray);
+}
+
+.form-control input, .input-textarea{
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    visibility: hidden;
+}
+
+
+
+.form button {
+    background-color:var(--color-gray1);
+    border-radius: 5px;
+    color: #3e445b;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+    border-color:var(--color-blue);
+}
+
+.form button:hover {
+    background-color:var(--color-blue);
+    transition: 0.3s;
+    color: #fff;
+}
