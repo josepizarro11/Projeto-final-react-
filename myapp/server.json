@@ -1,0 +1,94 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "maria",
+      "email": "miariald@gmail.com",
+      "telefone": "(17) 774883456",
+      "usuario": "mariita15",
+      "senha": "clave55"
+    },
+    {
+      "id": 2,
+      "name": "Alejandro",
+      "email": "alejandro122@gmail.com",
+      "telefone": "(17)267374839",
+      "usuario": "aleman",
+      "senha": "clave123"
+    },
+    {
+      "id": 3,
+      "name": "JUAN JOSE",
+      "email": "JUANCHOPANZA@GMAIL.COM",
+      "telefone": "(17) 983652435",
+      "usuario": "junito alimana",
+      "senha": "clave19"
+    },
+    {
+      "name": "jsgsgshs",
+      "email": "sngsshgs",
+      "telefone": "172727267",
+      "id": 4,
+      "usuario": "sin nombre",
+      "senha": "clave675"
+    },
+    {
+      "name": "luis",
+      "email": "lusito@gmail.com",
+      "telefone": "17 9812637465",
+      "id": 5,
+      "usuario": "lucho17",
+      "senha": "clave8725"
+    }
+   
+  ],
+  "empresa": [
+    {
+      "id": 1,
+      "name": "TOTI",
+      "email": "totiadm@gmail.com",
+      "turma1": [
+        {
+          "name": "tecnología e Bem-estar",
+          "description": "ngfgj",
+          "url": "sim",
+          "alunos": [
+            {
+              "id": 1,
+              "name": "Maria",
+              "email": "miariald@gmail.com"
+            }
+          ]
+        }
+      ],
+      "turma2": [
+        {
+          "name": "Adaptação ao primeiro emprego de tecnología",
+          "description": "ngfgj",
+          "url": "",
+          "alunos": [
+            {
+              "id": 2,
+              "name": "Alejandro",
+              "email": "alejandro122@gmail.com"
+            }
+          ]
+        }
+      ],
+      "turma3": [
+        {
+          "name": "comunicaçao no ambiente corporativo",
+          "description": "ngfgj",
+          "url": "",
+          "alunos": [
+            {
+              "id": 3,
+              "name": "JUAN JOSE",
+              "email": "JUANCHOPANZA@GMAIL.COM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
