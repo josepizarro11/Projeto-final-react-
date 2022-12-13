@@ -9,7 +9,7 @@ const CardCursos=({cursos}) => {
     
     return(
      <div className="col-4 mb-3">   
-       <Container >
+       <Container  >
           <Card>
          
 
@@ -19,8 +19,9 @@ const CardCursos=({cursos}) => {
                      
                 <Card.Title className="text-center">{cursos.name}</Card.Title>
                      
-                    <ListGroupItem> <strong> Description</strong> {cursos.description} </ListGroupItem>
-                    <ListGroupItem> <strong> url </strong> {cursos.url} </ListGroupItem>
+                <ListGroupItem>  <img src={cursos.url} className="img-cursos" width={300}></img></ListGroupItem>
+                    <ListGroupItem  className="subtitulos"> <strong> Descrição: </strong> {cursos.description} </ListGroupItem>
+                   
 
                 </ListGroup>
                 <button className="btn btn-dark me-2 apagar" > <Link to = "/cursos" >saiba mais</Link></button>

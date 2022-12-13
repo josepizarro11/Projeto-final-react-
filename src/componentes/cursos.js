@@ -1,6 +1,7 @@
 import React, { useState,useEffect} from 'react';
 import Api from '../services/api';
 import CardCursos from './cardCursos';
+import {Container, Row} from  "react-bootstrap";
 
 
 const Cursos =()=>{
@@ -23,7 +24,8 @@ const Cursos =()=>{
     },[updateState])
     return(
        
-       <div>
+        <Container>
+            <Row className='home'>
           {
             cursos.map((cursos,id) => {
                 return(
@@ -38,7 +40,8 @@ const Cursos =()=>{
 
             })
           }
-        </div>
+          </Row>
+       </Container>
     )
 }
 export default Cursos;

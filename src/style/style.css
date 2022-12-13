@@ -126,6 +126,19 @@
   
   }
 
+  .CursosHome{
+    margin-top: 30px;
+    color:rgb(94, 111, 127);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+
+
   .card {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
@@ -134,10 +147,34 @@
     color: darkslategray;
   
   }
+
+ 
+  .text-center{
+    text-transform: capitalize;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+  }
+
+  .img-cursos{
+   border-radius: 3px;
+   margin-bottom: 15px;
+   align-items: center;
+
+  }
+
+.subtitulos{
+  margin-bottom: 8px;
+}
+
+
   .btn{
     background-color:chocolate;
     border-radius: 3px;
     border-color: chocolate;
+ 
   }
   .img-fluid{
 

@@ -18,9 +18,10 @@ const CardCursosUser=({cursos}) => {
                      
                 <Card.Title className="text-center">{cursos.name}</Card.Title>
                      
-                    <ListGroupItem> <strong> Description</strong> {cursos.description} </ListGroupItem>
-                    <ListGroupItem> <strong> url </strong> {cursos.url} </ListGroupItem>
-                    <ListGroupItem> <strong> duracion </strong> {cursos.duracion} </ListGroupItem>
+                <ListGroupItem>  <img src={cursos.url} className="img-cursos" width={300}></img></ListGroupItem>
+                    <ListGroupItem className="subtitulos"> <strong> Descrição: </strong> {cursos.description} </ListGroupItem>
+                    
+                    <ListGroupItem  className="subtitulos"> <strong> Duração: </strong> {cursos.duracion} </ListGroupItem>
                     
                 </ListGroup>
                 <button className="btn" >Gostei</button>

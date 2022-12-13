@@ -17,7 +17,7 @@
       "senha": "clave19"
     },
     {
-      "name": "luis",
+      "name": "luis m.",
       "email": "lusito@gmail.com",
       "telefone": "17 9812637465",
       "id": 3,
@@ -45,7 +45,7 @@
       "id": 1,
       "name": "Bem-estar no trabalho",
       "description": "No ambiente profissional, o bem-estar no trabalho é um conjunto de práticas e estratégias voltadas para assegurar que o colaborador tenha a melhor experiência possível. Isso significa, na prática, garantir a harmonia e a felicidade de cada trabalhador. ",
-      "url": "",
+      "url": "https://www.pousadadoschas.com.br/blog/wp-content/uploads/2020/12/46.jpg",
       "duracion": " 1hrs",
       "userId": 1
     },
@@ -53,7 +53,7 @@
       "id": 2,
       "name": "Adaptaçao ao primeiro emprego",
       "description": " Enfrentar uma nova situação que ainda é desconhecida, pode ser assustador e, normalmente, essa nova realidade também traz uma mistura de sentimentos como felicidade, ansiedade, nervosismo, insegurança, etc., que você precisa aprender a lidar. ",
-      "url": "sim",
+      "url": "https://img.olhardigital.com.br/wp-content/uploads/2019/11/20191105033939.jpg",
       "duracion": "1:30",
       "userId": 2
     },
@@ -61,7 +61,7 @@
       "id": 3,
       "name": "Comunicaçao no ambiente corporativo",
       "description": "Uma boa comunicação no ambiente de trabalho evita que informações sejam divulgadas de forma inadequada. De maneira geral, melhorar a comunicação no ambiente de trabalho contribui para propor soluções, expor ideias, explicar estratégias, fazer acordos, etc, de maneira clara e objetiva.",
-      "url": "sim",
+      "url": "http://mundocarreira.com.br/wp-content/uploads/2017/06/comunicacao-efetiva-equipe.jpg",
       "duracion": "45min",
       "userId": 3
     }
