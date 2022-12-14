@@ -7,9 +7,16 @@ const NavBar = ()=> {
     
     const [open, setOpen] = useState(false);
     return(
-        
       
-
+      <header className="cabeçalho">
+      <div className="Logo">
+       <h1 className="titulo_h1">MedNorth</h1>
+      </div>
+        
+<header className="cabeçalho">
+<div className="Logo">
+ <img/>
+</div>
 
 <div className="login">
   <div className="Item-menu">
@@ -39,7 +46,7 @@ const NavBar = ()=> {
 
 
 </header>
-        
+</header>
     )
     }
 export default NavBar;

@@ -192,9 +192,33 @@
     padding:  15px 5%;
     line-height: 35px;
   }
+.titulo_h1{
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer_span{
+  margin-right: 1.5rem;
+}
 
 
+.container_for{
+  display: block;
+  background-color: #444;
+  border: 1px solid black;
+  margin: 2rem;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 150px;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
   
 
+}
 
-
+.usuario{
+  color: #fff;
+  font-size: 20px;
+}
