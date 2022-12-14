@@ -190,10 +190,11 @@
     width: 100%;
     background: #5F8E8D;
     padding:  15px 5%;
-    font-weight: bold;
     line-height: 35px;
-
   }
-  .footer div :nth-child(1){flex-grow: 5;color:#fff;}
+
+
+  
+
 
 

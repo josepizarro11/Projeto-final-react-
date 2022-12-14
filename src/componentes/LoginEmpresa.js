@@ -20,7 +20,7 @@ const LoginAdministrador = () => {
       
         return (
           /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form className="container_for" onSubmit={handleSubmit(onSubmit)}>
            
 
             <label>Usuario</label>

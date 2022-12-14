@@ -8,12 +8,8 @@ const NavBar = ()=> {
     const [open, setOpen] = useState(false);
     return(
         
-        
+      
 
-<header className="cabeçalho">
-<div className="Logo">
- <img/>
-</div>
 
 <div className="login">
   <div className="Item-menu">
