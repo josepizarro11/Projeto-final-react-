@@ -13,7 +13,6 @@ const NavBar = ()=> {
        <h1 className="titulo_h1">MedNorth</h1>
       </div>
         
-
 <header className="cabeçalho">
 <div className="Logo">
  <img/>
@@ -47,7 +46,7 @@ const NavBar = ()=> {
 
 
 </header>
-        
+</header>
     )
     }
 export default NavBar;

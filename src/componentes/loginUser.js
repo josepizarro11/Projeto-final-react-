@@ -29,22 +29,23 @@ const LoginUser = () => {
       
         return (
           /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-          <form onSubmit={handleSubmit(loginSubmit)}>
+          <form className="container_for" onSubmit={handleSubmit(loginSubmit)}>
            
 
-            <label>Usuario</label>
+            <label className="usuario">Usuario</label>
             <input {...register("usuario", { required: true })} />
           
             {errors.usuario && <span>Este campo é obrigatório</span>}
 
-            <label>Senha</label>
+
+            <label className="senha">Senha</label>
             <input {...register("senha", { required: true })} />
           
             {errors.senha && <span>Este campo é obrigatório</span>}
             
-           <button type="submit"> <Link to="/meusCursos"><b>Entrar</b></Link></button>
+           <button type="submit"> <Link className="entrar" to="/meusCursos"><b>Entrar</b></Link></button>
            
-           <p className="esq"> Não tem uma conta? <Link to="/cadastroEstudantes"><b>Inscrever-se agora</b></Link></p>
+           <p className="esq"> Não tem uma conta? <Link className="insc" to="/cadastroEstudantes"><b>Inscrever-se agora</b></Link></p>
           </form>
       
         )
