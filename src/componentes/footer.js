@@ -1,17 +1,17 @@
-import React from "react";
- 
+import React from 'react';
+
 export default class Footer extends React.Component {
+  render() {
+    return (
+      <div className='footer'>
+        <p>
+          <b>Endereço:</b> Av. Paulista Bela vista, São Paulo - SP.{' '}
+          <space> </space>
+          <b>Email:</b> MedNorth@gmail.com
+        </p>
 
-  render(){
-    return(
-      <div className="footer">
-        <div>
-
-          Endereço: Av. Paulista Bela vista, São Paulo - SP <br/>
-          Email: MedNorth@gmail.com <br/>
-          
-          </div>
+        <span className='footer_span'>Copyright &copy; 2022</span>
       </div>
-    )
+    );
   }
 }
