@@ -8,10 +8,12 @@ const NavBar = () => {
   return (
     <header className='cabeçalho'>
       <div className='Logo'>
-        <img
-          alt='logoMedNorth'
-          src='http://www.mednorth.org/wp-content/uploads/2013/08/medNorthLogo.jpg'
-        />
+        <Link style={{ color: 'transparent' }} to='/'>
+          <img
+            alt='logoMedNorth'
+            src='http://www.mednorth.org/wp-content/uploads/2013/08/medNorthLogo.jpg'
+          />
+        </Link>
       </div>
 
       <div className='login'>

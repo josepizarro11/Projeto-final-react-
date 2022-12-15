@@ -62,7 +62,7 @@ const ListAlunos = ({ user, updateState, setUpdateState }) => {
           <td className='btn-table2'>
             <div className='mb-3'>
               <button className='btn btn-danger' onClick={handleDelete}>
-                Delete
+                Apagar
               </button>
             </div>
           </td>
@@ -74,7 +74,7 @@ const ListAlunos = ({ user, updateState, setUpdateState }) => {
                   to={`/alumnosEdit/${user.id}`}
                   className='btn  btn-info  '
                 >
-                  Update
+                  Atualizar
                 </Link>
               </button>
             </div>

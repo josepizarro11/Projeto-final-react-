@@ -18,12 +18,16 @@ const LoginAdministrador = () => {
     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
     <form className='user-form' onSubmit={handleSubmit(onSubmit)}>
       <label>Usuario</label>
-      <input {...register('usuario', { required: true })} />
+      <input required {...register('usuario', { required: true })} />
 
       {errors.usuario && <span>Este campo é obrigatório</span>}
 
       <label>Senha</label>
-      <input type='password' {...register('senha', { required: true })} />
+      <input
+        required
+        type='password'
+        {...register('senha', { required: true })}
+      />
 
       {errors.senha && <span>Este campo é obrigatório</span>}
 

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "maria perez ",
       "email": "miariald@gmail.com",
-      "telefone": "(17) 774883456",
+      "telefone": "(17) 3323243",
       "usuario": "mariita15",
       "senha": "clave55"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "JUAN JOSE ",
       "email": "JUANCHOPANZA@GMAIL.COM",
-      "telefone": "(17) 983652435",
+      "telefone": "(17) 983652434",
       "usuario": "junito alimana",
       "senha": "clave19"
     },
@@ -31,6 +31,14 @@
       "usuario": "israel_svda",
       "senha": "18263434851",
       "id": 4
+    },
+    {
+      "name": "brayan",
+      "email": "brayan@gmail.com",
+      "telefone": "44443334",
+      "usuario": "ajljadf",
+      "senha": "jalfdkjalkfaf",
+      "id": 5
     }
   ],
   "empresa": [
